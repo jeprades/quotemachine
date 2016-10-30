@@ -9,9 +9,7 @@
 
 #quoteBox {
 
-    border-color: black;
-    border-width: thin;
-    border-style: solid;
+    border: thin solid black;
     background-color: white;
     margin-top: -160px;
     height: 400px;
