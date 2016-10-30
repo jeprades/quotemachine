@@ -1,0 +1,59 @@
+.backPurple {
+    background-color: #57068c;
+    padding-bottom: 180px;
+}
+
+.quoteLogo {
+    padding-top: 20px;
+}
+
+#quoteBox {
+
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+    background-color: white;
+    margin-top: -160px;
+    height: 400px;
+}
+
+.iconFa {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.codeQuote {
+    margin-top: 20px;
+    padding-left: 55px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: Galano Grotesque Alt DEMO, Galano Grotesque DEMO ,sans-serif;
+    text-align: center  ;
+}
+
+.author {
+    font-family: Galano Grotesque Alt DEMO, Galano Grotesque DEMO ,sans-serif;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#buttonGenerator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-twitter {
+    color: #fff;
+    background-color: #55acee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #57068c;
+}
+

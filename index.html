@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Machine</title>
+
+    <!-- External Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="quote.js"></script>
+</head>
+
+<body>
+
+    <!-- Purple Box -->
+    <div class="backPurple">
+
+        <img class="quoteLogo img-responsive" src="images/Logo.png" alt="Quote Machine Generator Logo"/>
+
+    </div>
+
+    <!-- Column Quote Box -->
+    <div class="row">
+
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+
+            <div id="quoteBox">
+                <i class="fa fa-quote-left iconFa"> </i>
+
+                <div class="codeQuote">
+                </div> <!--codeQuote-->
+
+                <div class="author">
+                </div> <!-- author-->
+
+            </div> <!--Quote Box-->
+
+            <div class="row">
+
+                <!-- Twitter Btn Column-->
+                <div class="col-md-6" align="middle">
+                    <a href="#" id="twitterBtn"
+                       class="btn btn-social-icon btn-lg btn-twitter"
+                       target="_blank"><span class="fa fa-twitter"></span></a>
+
+
+                </div> <!--twitter btn-->
+
+
+                <!-- Btn Generator Column-->
+                <div class="col-md-6" align="middle">
+                    <button id="buttonGenerator" class="btn btn-default btn-lg">
+                        <b>Generate Quote</b></button>
+
+                </div> <!--btn generator-->
+            </div> <!--Sub Row-->
+        </div> <!-- Principal Column-->
+    </div> <!--Principal row-->
+
+    <div class="row">
+        <div class="col-md-3 col-md-offset-9">
+            <h4 align="center">by <a href="https://codepen.io/Smukat/"><b>Jessica Prades</b></a></h4>
+        </div>
+
+    </div> <!--row credits-->
+
+
+</body>
+</html>
