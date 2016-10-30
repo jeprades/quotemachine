@@ -27,7 +27,7 @@ function generateQuote() {
         arrQuotes[n] = arrQuotes[n].substring(0, (140 - arrAuthors[n].length - 6)) + "...";
     }
 
-    $("#twitterBtn").attr("href", "https://twitter.com/intent/tweet?text=" + arrQuotes[n] + " - " + arrAuthors[n]);
+    $("#twitterBtn").attr("href", "https://twitter.com/intent/tweet?text=" + arrQuotes[n].replace(';', "%3B") + " - " + arrAuthors[n]);
 
 }
 
